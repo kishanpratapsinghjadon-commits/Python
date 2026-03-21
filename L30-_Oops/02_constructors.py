@@ -5,7 +5,7 @@ class Employee:
         self.age = age
         self.bond = bond
 
-    def get_info(self):
+    def full_info(self):
      print(f"The name of the employee is {self.name}. age of the employee is {self.age} and bond period is {self.bond} years")
 e1 = Employee("John Doe", 30, 5) # An object of class Employee is crearted here
-e1.get_info() # Employee e1's get info method is called for the first object here
+e1.full_info() # Employee e1's full info method is called for the first object here 

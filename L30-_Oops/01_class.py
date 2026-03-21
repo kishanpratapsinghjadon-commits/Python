@@ -20,7 +20,7 @@ print(e2.get_salary()) # Employee e2's get salary method is called for the secon
 
 print(e2.company) # due to local variable comapny it will not print microsoft but it will print HP which is the global variable of class Employee
 
-# another class is created here
+# another class is created here 
 class Owner:
     company = "Khudki"
     def have_share(self):

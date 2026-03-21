@@ -1,0 +1,1 @@
+print("ram ram brother" " good morning"       "hola amigo"     " keh hal hai ") # without commas you can create spaces using space inside double commas.

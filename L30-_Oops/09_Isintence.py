@@ -1,8 +1,5 @@
-# Problem : demonstrate polymorphism by defining a method fuel_type in both car and electric car classes , but with different behaviours.
-#polymorphism is the ability of an object to take on many forms. In Python, polymorphism is achieved through method overriding, where a child class can provide
-from pyexpat import model
-
-
+# Problem = demonstrate the use of isinstance() to check if my_car1 is an instance of car and electric_car classes.  
+#isinstance() is a built-in function in Python that is used to check if an object is an instance of a specific class or a subclass of that class. It takes two arguments: the object to be checked and the class or tuple of classes to check against. It returns True if the object is an instance of the specified class or a subclass of it, and False otherwise.
 class Car:
     def __init__(self, brand, model):
         self.brand = brand
@@ -27,5 +24,5 @@ class ElectricCar(Car):
         
 new_car = Car("Toyota", "Corolla")    
 my_car = ElectricCar("Tesla", "Model S", 100)
-print(my_car.fuel_type())
-print(new_car.fuel_type())
+print(isinstance(my_car, Car)) # this will return True because my_car is an instance of the Car class
+print(isinstance(my_car, ElectricCar)) # this will return True because my_car is an instance of the ElectricCar class

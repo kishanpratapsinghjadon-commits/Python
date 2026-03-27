@@ -1,1 +1,1 @@
-print(mixed[4])
+print("Pushpendrea shreyash")

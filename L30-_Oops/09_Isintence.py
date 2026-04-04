@@ -6,7 +6,7 @@ class Car:
         self.model = model
         
 
-    def get_info(self):
+    def get_info(self):  
         return f"this is a {self.model} of {self.brand}"
     
     def fuel_type(self):
